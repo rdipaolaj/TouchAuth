@@ -1,0 +1,71 @@
+# Compiled source
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+
+# Database files
+*.mdf
+*.ldf
+
+# Other files
+*.cache
+*.pdb
+*.pidb
+*.dbmdl
+*.dbo
+
+# Azure Web App
+appsettings.Development.json
+
+# JetBrains Rider
+.idea/
+
+# NPM files
+node_modules/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# Byebug for VS Code debugging
+*.byebug_history
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+
+# Resharper
+_ReSharper/
+*.DotSettings.user
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Exclude Git configuration
+.git/
+
+# Rider
+.idea/
+.idea/*
