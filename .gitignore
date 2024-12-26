@@ -30,9 +30,6 @@ obj/
 *.dbmdl
 *.dbo
 
-# Azure Web App
-appsettings.Development.json
-
 # JetBrains Rider
 .idea/
 
