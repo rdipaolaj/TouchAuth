@@ -66,3 +66,18 @@ Desktop.ini
 # Rider
 .idea/
 .idea/*
+
+# Visual Studio specific
+*.vspscc
+*.vssscc
+*.sln.ide
+
+# Build artifacts
+*.dll
+*.exe
+*.so
+*.dylib
+*.class
+
+# Publish outputs
+publish/
