@@ -25,6 +25,7 @@
     <ProjectReference Include="..\auth.dto\auth.dto.csproj" />
     <ProjectReference Include="..\auth.infraestructure\auth.infraestructure.csproj" />
     <ProjectReference Include="..\auth.redis\auth.redis.csproj" />
+    <ProjectReference Include="..\auth.request\auth.request.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\auth.application\auth.application.csproj" />
+    <ProjectReference Include="..\auth.common\auth.common.csproj" />
+    <ProjectReference Include="..\auth.handler\auth.handler.csproj" />
+    <ProjectReference Include="..\auth.internalservices\auth.internalservices.csproj" />
+    <ProjectReference Include="..\auth.jwt\auth.jwt.csproj" />
+    <ProjectReference Include="..\auth.redis\auth.redis.csproj" />
+    <ProjectReference Include="..\auth.requestvalidator\auth.requestvalidator.csproj" />
+    <ProjectReference Include="..\auth.secretmanager\auth.secretmanager.csproj" />
+  </ItemGroup>
+
 </Project>

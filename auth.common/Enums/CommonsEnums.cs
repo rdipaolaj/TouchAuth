@@ -22,3 +22,9 @@ public enum ApiErrorCode
     Timeout = 2003,
     DependencyFailure = 2004
 }
+
+public enum UserRole
+{
+    Administrator = 1,
+    Employee = 2
+}
