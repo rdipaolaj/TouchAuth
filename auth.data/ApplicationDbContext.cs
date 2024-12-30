@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using auth.entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace auth.data;
 public class ApplicationDbContext : DbContext
@@ -9,9 +10,11 @@ public class ApplicationDbContext : DbContext
     }
 
     // Definir DbSets
+    public DbSet<AuthUser> AuthUsers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasDefaultSchema("authsch");
+        base.OnModelCreating(modelBuilder);
     }
 }

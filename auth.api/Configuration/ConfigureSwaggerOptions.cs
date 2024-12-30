@@ -21,7 +21,7 @@ public class ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) : 
     {
         var info = new OpenApiInfo
         {
-            Title = "Auth Microservice",
+            Title = "Touch Auth Microservice",
             Version = description.ApiVersion.ToString(),
             Description = string.Empty
         };
